@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1</title>
+    <!--el link donde se llama a los estilos es en el head-->
+    <link rel="stylesheet" href="estilos-practica1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Practica 1- Calculadora básica </h1><hr />
+        <br/>
+
+        <div class="item">
+            <label>Numero 1:</label>
+            <input type="number" id="entrada1"/>
+            <br/>
+        </div>
+
+        <div class="item">
+            <label>Numero 2:</label>
+            <input type="number" id="entrada2"/>
+            <br/>
+        </div>
+        <div class="item">
+            <select id="opcionesElegir">
+                <option value="1"> Eliga una opcion</option>
+                <option value="2">Sumar</option>
+                <option value="3">Restar</option>
+                <option value="4"> Multiplicar</option>
+                <option value="5"> Dividir</option>
+            </select>
+            <button id="ejecucion1">Ejecutar</button>
+            <br/>
+
+        </div>
+
+        <div class="item">
+            <label>Resultado:</label>
+            <input type="number" id="ResultadoF" readonly/>
+        </div>
+    
+    </div>
+    <!--funcionamiento-->
+    <script src="jquery-3.7.0.min.js"> </script>
+    <script src="Funcionamiento.js"> </script>
+    
+
+</body>
+</html> 
